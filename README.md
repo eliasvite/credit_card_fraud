@@ -1,16 +1,18 @@
-# Home Credit Default Risk - Business Data Analytics
+# Home Credit Default Risk - Business Data Analytics Pipeline
 
 ## Project Overview
-This repository contains a Data Analytics pipeline designed to inspect, clean, and analyze client data for risk assessment, heavily inspired by commercial retail and e-commerce analytical frameworks. The main objective is to identify key risk drivers and behavioral patterns that influence credit defaults, enabling data-driven decisions to protect capital and mitigate financial loss.
+This repository contains a professional Data Analytics pipeline built to inspect, clean, and profile client data for credit risk assessment. Rather than pursuing standard Machine Learning modeling, this project focuses heavily on **Commercial and Retail Analytics Methodology** (similar to E-Commerce Sales Performance Frameworks) to isolate key risk drivers, identify high-exposure financial segments, and uncover behavioral KPIs that directly impact capital preservation and business profitability.
+
+---
 
 ## Repository Structure
 ```text
 credit_card_fraud/
 │
 ├── data/
-│   └── [Dataset Files]
+│   └── [Dataset Files / Kaggle API Config]
 ├── notebooks/
-│   └── eda.ipynb         # Main Jupyter Notebook containing data cleaning & business charts
+│   └── eda.ipynb         # Main Jupyter Notebook with cleaning, dashboards & customer segments
 ├── src/
-│   └── ingestion.py      # Automated data ingestion pipeline
-└── README.md
+│   └── ingestion.py      # Automated data ingestion scripts
+└── README.md             # Project documentation and business insights
